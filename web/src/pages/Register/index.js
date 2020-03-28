@@ -34,7 +34,7 @@ export default function Register() {
 
       history.push("/");
     } catch (err) {
-      alert("Registering error. Try again later.");
+      alert(err);
     }
   }
 
